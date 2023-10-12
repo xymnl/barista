@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+
+html {
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #494949;
+  text-decoration: none;
+}
+
+.nav,
+.footer {
+  flex: none;
+}

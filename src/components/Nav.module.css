@@ -1,0 +1,30 @@
+.nav {
+  position: relative;
+  z-index: 1;
+  padding: 15px 0;
+  background: #adadad;
+  box-shadow: 5px 5px 10px 0 rgba(0 0 0 0.5);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menu > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.menu a:hover,
+.menu a:active {
+  text-decoration: underline;
+}
