@@ -1,0 +1,45 @@
+.userMenu {
+  position: relative;
+}
+
+.iconButton {
+  background-color: transparent;
+}
+.iconButton:hover {
+  cursor: pointer;
+}
+
+.userMenu,
+.iconButton,
+.iconButton img {
+  width: 30px;
+  height: 30px;
+  border: 0;
+}
+
+.popup {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fff;
+  position: absolute;
+  top: 40px;
+  right: -10px;
+  border: 1px solid #ebebeb;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px 0 5px 5px;
+  overflow: hidden;
+}
+
+.popup li {
+  padding: 15px 19px;
+}
+
+.popup li:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.popup a:hover {
+  text-decoration: none;
+}

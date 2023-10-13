@@ -24,11 +24,12 @@ export default function UserMenu() {
       </button>
       {isOpen && (
         <ul className={styles.popup}>
-          <Link to="/wishlist">
-            <li>위시 리스트</li>
-          </Link>
-          <li className={styles.disabled}>회원가입</li>
-          <li className={styles.disabled}>로그인</li>
+          <li>
+            <Link to="join">회원가입</Link>
+          </li>
+          <li>
+            <Link to="login">로그인</Link>
+          </li>
         </ul>
       )}
     </div>

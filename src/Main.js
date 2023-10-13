@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import ContactDetail from "./pages/ContactDetail";
 import Introduce from "./pages/Introduce";
+import Login from "./pages/Login";
+import Join from "./pages/Join";
 
 export default function Main() {
   return (
@@ -15,6 +17,8 @@ export default function Main() {
           <Route path="contact" element={<Contact />} />
           <Route path="contact/:courseSlug" element={<ContactDetail />} />
           {/* <Route path="wishlist" element={<WishList />} /> */}
+          <Route path="login" element={<Login />} />
+          <Route path="join" element={<Join />} />
         </Routes>
       </App>
     </BrowserRouter>
